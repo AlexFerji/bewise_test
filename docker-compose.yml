@@ -10,8 +10,6 @@ services:
       - .env.example
     volumes:
       - db-data:/postgresql/data
-    ports:
-      - 5431:5432
 
 
 
